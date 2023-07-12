@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Resume</title>
+  <style>
+    * {
+      font-family: "helvetica", sans-serif;
+      box-sizing: border-box;
+    }
+
+    .resume {
+      text-align: center;
+      margin: 0 auto;
+      max-width: 800px;
+    }
+
+    .left-column {
+      width: 100%;
+      padding-right: 15px;
+      padding-bottom: 20px;
+    }
+
+    .right-column {
+      width: 100%;
+      padding-left: 15px;
+      padding-bottom: 20px;
+    }
+
+    .left-column,
+    .right-column {
+      float: none;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    h2 {
+      text-align: start;
+      background-color: #d6e8f2;
+      padding: 10px 15px;
+    }
+
+    h3 {
+      text-align: start;
+      padding: 0 15px;
+    }
+
+    img {
+      border-radius: 50%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 1;
+    }
+
+    p {
+      text-align: start;
+      padding: 0 15px;
+    }
+
+    ul {
+      text-align: start;
+      padding-left: 20px;
+    }
+
+    @media screen and (min-width: 600px) {
+      .resume {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+      }
+
+      .left-column {
+        padding-bottom: 0;
+      }
+
+      .right-column {
+        padding-bottom: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section class="resume">
+    <section class="left-column">
+      <section class="img-wrapper">
+        <img src="images/test.jpeg" alt="Profile Image" width="200px" height="200px" />
+      </section>
+      <section class="general">
+        <h1>Kennedy Wee</h1>
+        <section class="contact">
+          <p style="text-align: center">Email: kennedyweesupitang@gmail</p>
+          <p style="text-align: center">Phone: 0137735813</p>
+        </section>
+      </section>
+
+      <section>
+        <h2>Summary</h2>
+        <p>
+          I am a passionate web developer with expertise in HTML, CSS, and
+          JavaScript. I have experience building responsive and user-friendly
+          websites.
+        </p>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <ul>
+          <li>English</li>
+          <li>Mandarin</li>
+          <li>French</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Responsive Web Design</li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="right-column">
+      <section>
+        <h2>Education</h2>
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p>University of Example</p>
+        <p>Graduated: May 2023</p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <h3>Web Developer</h3>
+        <p>ABC Company</p>
+        <p>June 2023 - Present</p>
+        <ul>
+          <li>
+            Developed and maintained company website using HTML, CSS, and
+            JavaScript
+          </li>
+          <li>
+            Implemented responsive design for better mobile user experience
+          </li>
+          <li>
+            Collaborated with cross-functional teams to deliver high-quality
+            web solutions
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <h3>Personal Portfolio Website</h3>
+        <p>
+          Designed and developed a personal portfolio website to showcase my
+          skills and projects.
+        </p>
+      </section>
+    </section>
+  </section>
+</body>
+
+</html>
